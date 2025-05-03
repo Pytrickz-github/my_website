@@ -1,0 +1,99 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0078d7;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        section {
+            /* height: 100%; */
+            padding: 20px;
+            text-align: center;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #0078d7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .cta-button:hover {
+            background: #005a9e;
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            position: relative; /* Change from fixed to relative */
+            /* bottom: 0; */
+            width: 100%;
+            
+        }
+.footerlogo{
+    margin-left: 20px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.footerlogo img:hover {
+    opacity: 0.4; /* Slight fade effect on hover */
+    transition: opacity 0.5s ease;
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+.hero {
+    text-align: center;
+    padding: 40px; 
+    background-image: url('photos/backgroun- image.jpg'); /* Replace 'your-image-name.jpg' with the actual image file name */
+    background-size:50%; /* Ensures the image covers the entire section */
+    background-repeat: repeat; /* Prevents the image from repeating */
+    color: white; /* Adjust text color for better contrast */
+}
+
+.tiles-container {
+    display: flex;
+    justify-content:space-evenly;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.tile {
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to bottom, #08d0f8, #d4edda,#a4d7e1, #08d0f8); /* Gradient from pale green to darker green */
+    border-radius: 10px; /* Rounded edges */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.tile:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    transition: transform 0.5s ease;
+}
+footer hr {
+    
+   text-align: center;
+  
+    width: 100%; /* Set the width of the line */
+    border: solid;
+    border-color: #0078d7; /* Set the color of the line */
+    border-width: 1px; /* Set the thickness of the line */
+    margin: 10px 0; /* Add spacing above and below the line */
+}
