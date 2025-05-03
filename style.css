@@ -43,7 +43,7 @@
         }
 .footerlogo{
     margin-left: 20px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     text-decoration: none;
 }
 .footerlogo img:hover {
@@ -96,4 +96,10 @@ footer hr {
     border-color: #0078d7; /* Set the color of the line */
     border-width: 1px; /* Set the thickness of the line */
     margin: 10px 0; /* Add spacing above and below the line */
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
 }
